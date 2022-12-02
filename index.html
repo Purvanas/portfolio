@@ -4,13 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/css/style.css">
     <title>Accueil</title>
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+    <script> 
+    $(function(){
+        $("#header").load("asset/header.html"); 
+        $("#footer").load("asset/footer.html"); });
+</script> 
 </head>
+
 <body>
-    <include src="./header.html"></include>
+    <div id="header"></div>
 
+    <div class="classic">
+    <h2>PRÉSENTATION</h2><!-- <img border="0" src="monurl.gif">-->
+    <p>
+        Pour me contacter rien de plus simple : 
+        <ul><img class="icone" src="asset/image/email.gif">arnaudmirocha@gmail.com</ul>
+        <ul><img class="icone" src="asset/image/telephone.gif">06.63.68.96.95</ul>
+        
 
+    </p>
+    <p>Mon cv est disponible au téléchargement <a href="asset/download/CV_Arnaud_Mirocha.pdf">ici</p>
+    </div>
 
-    <include src="./footer.html"></include>
+    <div id="footer"></div>
 </body>
 </html>
+
+
+
+
