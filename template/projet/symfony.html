@@ -10,19 +10,42 @@
         <title>Symfony</title>
         <link rel="icon" type="image/x-icon" href="../../asset/image/letter-p.ico">
     
-        <script
-        src="https://code.jquery.com/jquery-3.3.1.js"
-        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-        crossorigin="anonymous">
-        </script>
-        <script> 
-        $(function(){
-            $("#header").load("../../asset/header.html"); 
-            $("#footer").load("../../asset/footer.html"); });
-    </script> 
+        
     </head>
 <body>
-    <div id="header"></div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../../index.html">Purvanas</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+              
+              <li class="nav-item">
+                <a class="nav-link" href="../../template/projet.html">Projets</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Veilles Technologiques</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Stages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Certifications</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../template/mention.html">Mentions</a>
+              </li>
+              
+            </ul><!--
+            <div class="d-flex">
+              <input class="form-control me-sm-2" type="text" placeholder="Search">
+              <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            <div>-->
+          </div>
+        </div>
+      </nav>
 
     <div class="classic">
 
@@ -50,6 +73,5 @@
 
     </div>
 
-    <div id="footer"></div>
 </body>
 </html>
