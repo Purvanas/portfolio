@@ -12,9 +12,9 @@
 .screenshot{
   margin: auto;
   display: flex;
-  max-height: 700px;
   height: auto;
-  width: auto;
+  width: 1400px;
+  height: 700px;
   box-shadow: 0px 0px 3px black;
 }
 
@@ -23,7 +23,11 @@ body{
 }
 
 h1{
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin-bottom: 100px;
+  text-align: center;
+  background: linear-gradient(lightgrey, white);
 }
 h2{
   margin-top: 50px;
@@ -49,13 +53,13 @@ a:hover{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-auto-rows: 360px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: 50px;
   margin-bottom: 100px;
   text-align: center;
   row-gap: 100px;
-  column-gap: 10px;
+  column-gap: 40px;
 }
 
 .widget{
