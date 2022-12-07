@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<header>
+
+  <title>Netflix (le vrai)</title>
+
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="NetflixIco.ico">
+
+  <link href="Style.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+   
+
+  <script src="Scripts.js"></script>
+
+</header>
+
+<body onload="afficheFilm()">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a href="index.html"><img src="netflix.png" onclick="resetPage()" id="imgAccueil" > </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav me-auto">
+            </ul>
+                <div style="margin-right: 5px;"><input type="text" placeholder="Titre de film" id="searchBar"/></div>
+                <button onclick="SearchFilm()">Rechercher</button>
+          </div>
+        </div>
+      </nav>
+
+
+      <div class="affiche" id="affiche"></div>
+
+
+    
+
+</body>
