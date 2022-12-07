@@ -20,9 +20,9 @@
   margin: auto;
   display: flex;
   height: auto;
-  width: auto;
-  max-width: 1200px;
-  max-height: 600px;
+  width: 100%;
+  max-width: 1300px;
+  max-height: 650px;
   box-shadow: 0px 0px 3px black;
 }
 
@@ -69,6 +69,7 @@ a:hover {
 
 .widget {
   display: grid;
+  grid-template-rows: 1fr 250px 1fr;
   background-color: lightsteelblue;
   width: 300px;
   height: 400px;
@@ -95,12 +96,14 @@ a:hover {
 .widgetImage {
   margin: auto;
   display: flex;
+  vertical-align: middle;
   height: auto;
   max-width: 290px;
 }
 
 .widgetDescription {
   padding: 10px;
+  
 }
 
 @media (max-width: 1500px) {
