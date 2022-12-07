@@ -71,32 +71,7 @@ const getHomePage = async(id) =>{
     if(afficheJson.homepage){ // redirection vers une homepage (s'il elle existe)
         window.location.replace(afficheJson.homepage);
     }
-    else{ // redirection vers une page contenant les infos du film 
-
-
-       /*  let TradURL = encodeURIComponent(afficheJson.overview)
-        let langues = '&target=fr&source=en'
-        const data = "q="+TradURL+langues;
-
-        const xhr = new XMLHttpRequest();
-        xhr.withCredentials = true;
-
-        xhr.addEventListener("readystatechange", function () {
-            if (this.readyState === this.DONE) {
-                const JSONTranslate = JSON.parse(this.responseText);
-                console.log(JSONTranslate.data.translations[0].translatedText)
-            }
-        });
-
-        xhr.open("POST", "https://google-translate1.p.rapidapi.com/language/translate/v2");
-        xhr.setRequestHeader("content-type", "application/x-www-form-urlencoded");
-        //xhr.setRequestHeader("Accept-Encoding", "application/gzip");
-        xhr.setRequestHeader("X-RapidAPI-Key", "f513792b3dmshc915a76fe715275p16d658jsn1eee11c2917b");
-        xhr.setRequestHeader("X-RapidAPI-Host", "google-translate1.p.rapidapi.com");
-
-        xhr.send(data); */
-    
-    
+    else{ 
         document.getElementById("affiche").innerHTML = `<div class='image'><img src="${img+afficheJson.backdrop_path}" : ' ${afficheJson.tagline} '></div>`
         + "<div class='title'>" + afficheJson.title + "</div>"
         + "<p class='date'> Date de sortie : " + afficheJson.release_date + "</div>"
