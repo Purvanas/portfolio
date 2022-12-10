@@ -5,6 +5,49 @@
   border-radius: 100px;
 }
 
+#boutonDeNav{
+  display:block;
+  background-color: #2397F3;
+  right: 0%;
+  top: 87px;
+  padding: 2px;
+  padding-left: 5px;
+  width: 300px;
+  height: 0px;
+  position: absolute;
+  border-radius: 8px;
+
+  transition: 1s ease height;
+}
+
+#nav-link-button-div{
+  display: none;
+}
+
+#nav-link-button{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: larger;
+}
+
+#nav-link-button:hover{
+  color: black;
+}
+
+.loaded{
+  height: 150px !important;
+}
+
+.navigationLinks{
+  display: contents !important;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: larger;
+}
+
+
 .classic {
   margin-top: 100px;
   margin-left: 15%;
@@ -25,6 +68,8 @@
   max-height: 650px;
   box-shadow: 0px 0px 3px black;
 }
+
+
 
 body {
   margin-bottom: 50px;
@@ -53,6 +98,7 @@ a {
 a:hover {
   color: black;
 }
+
 
 /*********************WIDGET*********************/
 
@@ -119,3 +165,5 @@ a:hover {
     box-shadow: 0px 0px 3px black;
   }
 }
+
+
