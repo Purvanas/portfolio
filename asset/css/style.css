@@ -24,14 +24,17 @@
   display: none;
 }
 
-#nav-link-button{
+.nav-link-button{
+  opacity: 0;
   text-decoration: none;
   color: white;
   padding: 10px;
   font-size: larger;
+
+  transition: all 0.5s;
 }
 
-#nav-link-button:hover{
+.nav-link-button:hover{
   color: black;
 }
 
