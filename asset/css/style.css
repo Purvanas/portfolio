@@ -98,7 +98,9 @@ a:hover {
   display: flex;
   vertical-align: middle;
   height: auto;
+  max-height: 250px;
   max-width: 290px;
+  object-fit: fill;
 }
 
 .widgetDescription {
