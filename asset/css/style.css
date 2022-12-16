@@ -140,7 +140,7 @@ a:hover {
   grid-template-rows: 1fr 300px 1fr;
   background-color: rgb(236, 244, 255);
   width: auto;
-  height: 400px;
+  height: auto;
   border-radius: 10px;
   margin-bottom: 200px;
   box-shadow: 0px 0px 3px black;
@@ -153,15 +153,15 @@ a:hover {
   vertical-align: middle;
   height: auto;
   max-height: auto;
-  max-width: 80%;
+  max-width: 800px;
   object-fit: fill;
 }
 
-.widget:hover {
+.widgetStage:hover {
   box-shadow: 0px 0px 10px black;
 }
 
-.widgetStage:hover {
+.widget:hover {
   box-shadow: 0px 0px 10px black;
 }
 
@@ -186,6 +186,7 @@ a:hover {
 }
 
 .widgetDescription {
+  margin-top: 1px;
   padding: 10px;
 }
 
