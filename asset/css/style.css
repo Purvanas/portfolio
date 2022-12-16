@@ -153,7 +153,7 @@ a:hover {
   vertical-align: middle;
   height: auto;
   max-height: auto;
-  max-width: 800px;
+  max-width: 70%;
   object-fit: fill;
 }
 
@@ -186,7 +186,6 @@ a:hover {
 }
 
 .widgetDescription {
-  margin-top: 1px;
   padding: 10px;
 }
 
