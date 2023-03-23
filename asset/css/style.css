@@ -25,6 +25,20 @@
   display: none;
 }
 
+#bienvenue{
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#feuille{
+  border: solid thin gray;
+  background-color: whitesmoke;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.63);
+  padding: 20px;
+}
+
 .nav-link-button {
   opacity: 0;
   text-decoration: none;
@@ -78,14 +92,17 @@
 .flippyTitle span {
   position: relative;
   display: inline-block;
-  font-size: 60px;
+  font-size: 150px;
   text-transform: uppercase;
   animation: flip 4s infinite;
   animation-delay: calc(.3s * var(--i))
 }
 @keyframes flip {
-  0%,80% {
+  0%,65% {
     transform: rotateY(360deg) 
+  }
+   65% {
+    color: rgb(83, 221, 203); /* première couleur */
   }
 }
 
@@ -100,7 +117,9 @@ h1 {
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 100px;
+  margin-top: 50px;
   text-align: center;
+  font-size: 70px;
 }
 h2 {
   margin-top: 50px;
@@ -120,7 +139,12 @@ a:hover {
 }
 
 embed{
-  text-decoration: none;
+  border: 2px black solid;
+}
+
+iframe{
+  border: 1px black solid;
+  box-shadow: 2px 1px black ;
 }
 
 
