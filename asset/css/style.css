@@ -16,6 +16,7 @@
   height: 0px;
   position: absolute;
   /*border-radius: 8px;*/
+  z-index: 10;
 
   transition: 1s ease height;
 }
