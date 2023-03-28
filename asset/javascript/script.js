@@ -2,15 +2,6 @@ var slide = new Array("symfony/accueilSymfony.png", "symfony/connectionSymfony.p
 var numero = 0;
 var cpt=0;
 
-  
-  video.addEventListener('timeupdate', function() {
-    if (video.currentTime === 0) {
-      start = performance.now();
-      requestAnimationFrame(reverseVideo);
-    }
-  });
-
-
 
 function ChangeSlide(sens) {
     numero = numero + sens;
