@@ -1,16 +1,20 @@
 var slide = new Array("symfony/accueilSymfony.png", "symfony/connectionSymfony.png", "symfony/contactSymfony.png", "symfony/creationCompte.png");
 var numero = 0;
 var cpt=0;
+let videoCpt=0;
 
 const video = document.getElementById('myVideo')
 
-video.playbackRate = 0.7;
 
-video.addEventListener("ended", (event) => {
-    console.log(
-        video.playbackRate = -0.7
-    );
-});
+video.onended = function() {
+    if(videoCpt%2 == 0){
+        video.playbackRate = -1
+        videoCpt++
+    }else {
+        video.playbackRate = 1
+        videoCpt++
+    }
+};
 
 
 function ChangeSlide(sens) {

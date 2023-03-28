@@ -40,11 +40,12 @@
 }
 
 #myVideo {
+  object-fit: cover;
   position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
   z-index: -1;
 }
 
@@ -119,7 +120,7 @@ body {
   margin-bottom: 50px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background: linear-gradient(rgb(238, 246, 255), rgb(225, 255, 254));
-  color: rgb(83, 221, 203);
+  
 }
 
 
@@ -130,22 +131,25 @@ h1 {
   margin-top: 50px;
   text-align: center;
   font-size: 70px;
+  color: rgb(83, 221, 203);
 }
 h2 {
   margin-top: 50px;
+  color: rgb(83, 221, 203);
 }
 
 h3 {
   margin-top: 50px;
   text-align: center;
+  color: rgb(83, 221, 203);
 }
 
 a {
-  color: gray;
+  color: rgb(83, 221, 203);
 }
 
 a:hover {
-  color: black;
+  color: rgb(55, 167, 152);
 }
 
 embed{
