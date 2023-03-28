@@ -17,6 +17,7 @@ video.onended = function() {
 };
 
 
+
 function ChangeSlide(sens) {
     numero = numero + sens;
     if (numero < 0)
