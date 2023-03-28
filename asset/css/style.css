@@ -34,9 +34,18 @@
 
 #feuille{
   border: solid thin gray;
-  background-color: whitesmoke;
-  box-shadow: 3px 3px rgba(0, 0, 0, 0.63);
+  background-color: rgba(245, 245, 245, 0.473);
+  /*box-shadow: 3px 3px rgba(0, 0, 0, 0.63);*/
   padding: 20px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
 }
 
 .nav-link-button {
@@ -110,6 +119,7 @@ body {
   margin-bottom: 50px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background: linear-gradient(rgb(238, 246, 255), rgb(225, 255, 254));
+  color: rgb(83, 221, 203);
 }
 
 

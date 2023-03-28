@@ -2,6 +2,15 @@ var slide = new Array("symfony/accueilSymfony.png", "symfony/connectionSymfony.p
 var numero = 0;
 var cpt=0;
 
+const video = document.getElementById('myVideo')
+
+video.playbackRate = 0.7;
+
+video.addEventListener("ended", (event) => {
+    console.log(
+        video.playbackRate = -0.7
+    );
+});
 
 
 function ChangeSlide(sens) {
