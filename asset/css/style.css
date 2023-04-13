@@ -50,6 +50,16 @@
   z-index: -1;
 }
 
+#imgVoiceAi{
+  margin: auto;
+  display: flex;
+  vertical-align: middle;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain; 
+  max-height: 100%; 
+}
+
 .nav-link-button {
   opacity: 0;
   text-decoration: none;
@@ -269,6 +279,13 @@ iframe{
 
 .widgetDescription {
   padding: 10px;
+}
+
+.veille{
+  font-size: 20px;
+ padding: 10px;
+ border-radius: 20px;
+ background-color: rgba(64, 63, 134, 0.692);
 }
 
 @media (max-width: 1500px) {
