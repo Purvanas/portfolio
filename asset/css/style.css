@@ -135,6 +135,7 @@ body {
   margin-bottom: 50px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   /*background: linear-gradient(rgb(238, 246, 255), rgb(225, 255, 254));*/
+  background-image: url("../image/blueBackground.png");
   
 }
 
